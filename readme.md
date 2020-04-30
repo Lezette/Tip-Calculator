@@ -7,3 +7,5 @@ This app helps you exercise JavaScript features like
 * and a tiny bit of DOM manipulation
 
 No complicated setup is required as it's just a simple HTML, CSS and JavaScript app :wink:
+
+![image](https://user-images.githubusercontent.com/42512400/80676846-8ac07500-8aaf-11ea-9fbf-837d1c34e642.png)
