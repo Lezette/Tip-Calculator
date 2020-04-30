@@ -5,4 +5,5 @@ This app helps you exercise JavaScript features like
 * function basics
 * basic event handling
 * and a tiny bit of DOM manipulation
+
 No complicated setup is required as it's just a simple HTML, CSS and JavaScript app :wink:
