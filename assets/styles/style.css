@@ -1,0 +1,53 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background: rgb(26,0,36);
+    background: linear-gradient(90deg, rgba(26,0,36,1) 0%, rgba(121,9,117,1) 100%);
+    height: 100vh;
+    display:flex;
+    margin: auto;
+}
+.container{
+    width: 20em;
+    height: 80vh;
+    border-radius: 10px;
+    background: rgb(234, 227, 236);
+    margin: auto;
+    padding: 1em;
+}
+button{
+    color: #fff;
+    font-size: 1.2em;
+    background-color:  rgb(131, 14, 69);
+    border: none; text-transform: uppercase;
+    box-shadow: none; font-weight: 400;
+    padding: .3em 1em; border-radius: 3px;
+}
+button:hover,
+button:focus {
+    background: rgba(134, 7, 67, 0.9);
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    transform: scale(0.99);
+}
+#result-container{
+    text-align: center;
+}
+#result-container::before{
+    content: 'Tip Amount';
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    margin: 1em 0 0;
+}
+#result::before{
+    content: '$';
+    font-weight: bold;
+    display: inline;
+    margin-right: 3px;
+}
